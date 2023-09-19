@@ -9,7 +9,7 @@ const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
   title: "Dj Islnd | The Real DJ",
-  description: "the real dj",
+  description: "Dj Island",
 };
 
 export default function RootLayout({ children }) {
