@@ -11,9 +11,11 @@ export default function Home() {
 				alt="DJ Island"
 			/>
 			<div className="text-center absolute w-full">
-				<h1 className="font-bold text-slate-300 text-4xl sm:text-5xl md:text-6xl">
-					<span className="block text-gray-400 pb-8">DJ Island</span>{" "}
-					<span className="block text-gray-600">The Real DJ</span>
+				<h1 className="font-medium text-slate-200 text-4xl sm:text-5xl md:text-8xl">
+					<span className="block pb-8 font-vindica">
+						DJ Island
+					</span>{" "}
+					<span className="block font-vindica">The Real DJ</span>
 				</h1>
 				<div className="mt-5 flex justify-center">
 					<div className="mt-3 sm:mt-0 sm:ml-3">

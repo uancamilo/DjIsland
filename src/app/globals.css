@@ -4,6 +4,16 @@
 /* purgecss end ignore */
 @tailwind utilities;
 
+@layer base {
+    @font-face {
+        font-family: "Vindica";
+        src: url("/fonts/Vindica.woff2") format("woff2");
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
